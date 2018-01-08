@@ -87,7 +87,7 @@ public class DrawerActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-             startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_slideshow) {
             startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_manage) {
