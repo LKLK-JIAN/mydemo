@@ -89,9 +89,9 @@ public class DrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
           startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_slideshow) {
-
+            startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_manage) {
-
+            startActivity(new Intent(this, MainActivity.class));
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
