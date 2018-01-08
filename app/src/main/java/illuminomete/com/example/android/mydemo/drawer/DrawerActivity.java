@@ -1,6 +1,5 @@
 package illuminomete.com.example.android.mydemo.drawer;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -14,7 +13,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import illuminomete.com.example.android.mydemo.MainActivity;
 import illuminomete.com.example.android.mydemo.R;
 
 public class DrawerActivity extends AppCompatActivity
@@ -87,15 +85,15 @@ public class DrawerActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            startActivity(new Intent(this, MainActivity.class));
+
         } else if (id == R.id.nav_slideshow) {
-            startActivity(new Intent(this, MainActivity.class));
+
         } else if (id == R.id.nav_manage) {
-            startActivity(new Intent(this, MainActivity.class));
+
         } else if (id == R.id.nav_share) {
-            startActivity(new Intent(this, MainActivity.class));
+
         } else if (id == R.id.nav_send) {
-            startActivity(new Intent(this, MainActivity.class));
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
